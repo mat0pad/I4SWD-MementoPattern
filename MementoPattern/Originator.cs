@@ -8,7 +8,6 @@ namespace MementoPattern
         private string _author;
         private DateTime _lastEdit;
 
-
         public Originator(string title, string author, string dsc, DateTime time)
         {
             _title = title;

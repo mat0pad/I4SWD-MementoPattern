@@ -41,6 +41,7 @@ namespace MementoPattern
 
             org.PrintState();
 
+            Thread.Sleep(1000);
 
             Console.WriteLine("\n\nRolling back two changes -> result:\n ");
 
@@ -48,6 +49,7 @@ namespace MementoPattern
 
             org.PrintState();
         }
+
 
 
 
